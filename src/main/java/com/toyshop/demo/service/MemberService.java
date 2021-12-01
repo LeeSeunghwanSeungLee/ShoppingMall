@@ -3,10 +3,12 @@ package com.toyshop.demo.service;
 import com.toyshop.demo.domain.Member;
 import com.toyshop.demo.repository.MemberRepository;
 import com.toyshop.demo.repository.MemoryMemberRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class MemberService {
     private final MemberRepository memberRepository;
 
